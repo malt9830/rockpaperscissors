@@ -49,8 +49,6 @@ function startShaking() {
 }
 
 function showChoices() {
-  console.log("showingChoices");
-
   document.querySelector(
     "#player1"
   ).style.backgroundImage = `url(hand_${playerChoice}.png)`;
